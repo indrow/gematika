@@ -1,0 +1,7 @@
+.login-page__container {
+  @apply flex top-0 h-screen w-screen justify-center items-center;
+}
+
+.login-btn__style {
+  @apply md:h-12 md:w-48 md:text-lg h-10 w-36 text-base;
+}

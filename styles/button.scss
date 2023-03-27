@@ -1,0 +1,11 @@
+.sliding__btn {
+  @apply relative overflow-hidden rounded-md bg-white shadow;
+}
+
+.slider {
+  @apply absolute inset-0 w-3 transition-all duration-[250ms] ease-out group-hover:w-full;
+}
+
+.sliding__btn__text {
+  @apply relative text-black group-hover:text-white;
+}

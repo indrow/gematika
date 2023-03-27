@@ -1,0 +1,27 @@
+.big__container {
+  @apply flex flex-col mx-auto px-4 py-24 max-w-screen-xl;
+
+  .wrapper {
+    @apply w-full md:w-1/2 text-center md:text-left;
+
+    .brand {
+      @apply text-6xl font-['Titillium_Web'] py-4;
+    }
+
+    p {
+      @apply text-xl;
+    }
+  }
+
+  .cat__header {
+    @apply font-bold text-md uppercase text-cyan-500 mb-2;
+  }
+
+  .cat__desc {
+    @apply text-3xl font-bold tracking-tight mb-8;
+  }
+
+  .card__container {
+    @apply grid justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-4;
+  }
+}
